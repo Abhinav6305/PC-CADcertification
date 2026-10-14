@@ -1,0 +1,11 @@
+{
+  "name": "pscad-certificate-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Certificate portal for PSCAD: A Hands-on Workshop on Power System Simulation — Dept. of EEE, St. Peter's Engineering College",
+  "scripts": {
+    "start": "node server.js",
+    "data": "node scripts/build-data.js",
+    "build": "node scripts/bundle.js"
+  }
+}

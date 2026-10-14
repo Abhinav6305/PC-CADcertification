@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PSCAD Workshop Certificates · ELECSPIRE · St. Peter's Engineering College</title>
+  <meta name="description" content="Download your certificate for PSCAD: A Hands-on Workshop on Power System Simulation, by ELECSPIRE, Department of EEE, St. Peter's Engineering College.">
+  <meta name="theme-color" content="#f1671b">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/logo.png" alt="ELECSPIRE — Department Association Committee logo" width="48" height="52">
+      <div>
+        <strong>ELECSPIRE</strong>
+        <span>Dept. of EEE · St. Peter's Engineering College</span>
+      </div>
+    </div>
+    <nav class="nav"><a href="#search-view">Certificates</a><a href="#about">About</a><a href="#gallery">Gallery</a></nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow"><span class="bolt" aria-hidden="true">⚡</span> Hands-on Workshop · 5–6 Oct 2026</p>
+      <h1>PSCAD</h1>
+      <p class="sub">Power System Simulation</p>
+      <p class="lede">Find yourself by roll number or name and download your certificate in seconds.</p>
+
+    </div>
+  </section>
+
+  <main>
+    <section class="card search-card" id="search-view">
+      <h2>Get your certificate</h2>
+      <p class="hint">Enter your roll number or your name as registered.</p>
+      <form id="search-form" autocomplete="off">
+        <input id="q" type="text" placeholder="e.g. 25BK1A0219 or Sai Prasad" aria-label="Roll number or name" required>
+        <button type="submit">Search</button>
+      </form>
+      <p class="msg" id="msg" role="status"></p>
+      <ul class="results" id="results"></ul>
+    </section>
+
+    <section class="card person-card" id="person-view" hidden>
+      <button class="back" id="back" type="button">← Search again</button>
+      <div class="person-head">
+        <div>
+          <h2 id="p-name"></h2>
+          <p class="meta" id="p-meta"></p>
+        </div>
+        <span class="badge" id="p-badge" hidden></span>
+      </div>
+
+      <div class="tabs" id="tabs" role="tablist"></div>
+
+      <div class="preview">
+        <canvas id="canvas"></canvas>
+        <div class="loading" id="loading">Preparing certificate…</div>
+      </div>
+
+      <div class="actions">
+        <button id="dl-pdf" type="button" class="primary">Download PDF</button>
+        <button id="dl-png" type="button">Download PNG</button>
+        <button id="dl-all" type="button" class="ghost" hidden>Download all as PDF</button>
+      </div>
+      <p class="note">Name looks wrong? Contact the faculty coordinators — Mr. J. Naresh &amp; Mr. S. Namdev.</p>
+    </section>
+  </main>
+
+  <section class="section about" id="about">
+    <p class="kicker">About the workshop</p>
+    <h2 class="section-title">Two days of hands-on power system simulation</h2>
+    <p class="about-lede">
+      <strong>PSCAD (Power Systems Computer Aided Design)</strong> is an industry-standard tool for
+      modelling electrical networks and studying how they behave in time. This two-day workshop took
+      students from first login to confident circuit simulation &mdash; building circuits, running
+      transient studies and reading waveforms, with every concept practised live on their own systems.
+    </p>
+
+    <div class="days">
+      <article class="day">
+        <span class="day-tag">Day 1 &middot; 5 Oct</span>
+        <h3>Getting started with PSCAD</h3>
+        <p>Building a working foundation in the software environment.</p>
+        <ul>
+          <li>Account creation, login, software download and setup</li>
+          <li>Navigating the workspace windows and project tree</li>
+          <li>What each toolbar button and core feature does</li>
+          <li>Exploring the master component libraries</li>
+          <li>Selecting components, wiring basic circuits and running first simulations</li>
+        </ul>
+      </article>
+      <article class="day">
+        <span class="day-tag">Day 2 &middot; 6 Oct</span>
+        <h3>RLC circuits &amp; transient analysis</h3>
+        <p>Applying the fundamentals to real circuit behaviour.</p>
+        <ul>
+          <li>Designing circuits with resistive, inductive and capacitive (RLC) elements</li>
+          <li>Transient analysis of voltage and current responses</li>
+          <li>Plotting and interpreting circuit parameters graphically</li>
+          <li>Comparing RL, RC and RLC combinations</li>
+          <li>Finding and fixing common simulation errors</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="contest">
+      <div class="contest-icon" aria-hidden="true">&#9889;</div>
+      <div>
+        <h3>The closing challenge</h3>
+        <p>
+          The workshop ended with a short technical competition: participants calculated circuit
+          parameters by hand, then verified their answers against PSCAD&rsquo;s simulated outputs.
+          Two winners were selected based on the accuracy of their calculations and results.
+        </p>
+      </div>
+    </div>
+
+    <div class="outcomes">
+      <div><strong>Hands-on</strong><span>Every concept practised live in PSCAD</span></div>
+      <div><strong>Analytical</strong><span>Theory checked against simulation results</span></div>
+      <div><strong>Practical</strong><span>Simulation skills used across electrical engineering</span></div>
+    </div>
+
+    <h3 class="sub-title">Resource persons</h3>
+    <div class="people">
+      <figure class="person">
+        <img src="assets/people/renatta-joseph.jpg" alt="Renatta Joseph speaking at the PSCAD workshop" width="640" height="800" loading="lazy">
+        <figcaption><strong>Renatta Joseph</strong><span>Resource Person</span><span>III Year, EEE</span></figcaption>
+      </figure>
+      <figure class="person">
+        <img src="assets/people/nagalla-harshith.jpg" alt="Nagalla Harshith" width="640" height="800" loading="lazy">
+        <figcaption><strong>Nagalla Harshith</strong><span>Resource Person</span><span>III Year, EEE</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section gallery-section" id="gallery">
+    <p class="kicker">Event gallery</p>
+    <h2 class="section-title">Moments from the workshop</h2>
+    <div class="gallery">
+      <button type="button" class="g-item wide" data-full="assets/gallery/01-lecture-hall.jpg"><img src="assets/gallery/01-lecture-hall.jpg" alt="PSCAD session underway in the seminar hall" loading="lazy"></button>
+      <button type="button" class="g-item tall" data-full="assets/gallery/03-hands-on-1.jpg"><img src="assets/gallery/03-hands-on-1.jpg" alt="Participants working on a circuit together" loading="lazy"></button>
+      <button type="button" class="g-item" data-full="assets/gallery/02-session-overview.jpg"><img src="assets/gallery/02-session-overview.jpg" alt="Students at the hands-on session" loading="lazy"></button>
+      <button type="button" class="g-item tall" data-full="assets/gallery/04-team-work-1.jpg"><img src="assets/gallery/04-team-work-1.jpg" alt="A team solving the closing challenge" loading="lazy"></button>
+      <button type="button" class="g-item tall" data-full="assets/gallery/05-team-work-2.jpg"><img src="assets/gallery/05-team-work-2.jpg" alt="Team verifying their calculations in PSCAD" loading="lazy"></button>
+      <button type="button" class="g-item wide" data-full="assets/gallery/06-full-house.jpg"><img src="assets/gallery/06-full-house.jpg" alt="A full hall of participants" loading="lazy"></button>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button type="button" class="lb-close" aria-label="Close">&times;</button>
+    <button type="button" class="lb-nav lb-prev" aria-label="Previous photo">&#8249;</button>
+    <img alt="">
+    <button type="button" class="lb-nav lb-next" aria-label="Next photo">&#8250;</button>
+  </div>
+
+  <footer>
+    <img src="assets/logo.png" alt="" width="40" height="44">
+    <p><strong>ELECSPIRE</strong> — Department Association Committee, EEE</p>
+    <p>Faculty Coordinators: Mr. J. Naresh · Mr. S. Namdev &nbsp;|&nbsp; HOD – EEE: Dr. K. Amaresh</p>
+    <p class="small">St. Peter's Engineering College (UGC-Autonomous, affiliated to JNTU Hyderabad)</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/pdf.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>

@@ -249,6 +249,7 @@ footer { margin-top: 48px; }
 @media (max-width: 760px) {
   .days, .outcomes { grid-template-columns: 1fr; }
   .people { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .people.solo { grid-template-columns: minmax(0, 250px); }
   .person strong { font-size: 17px; }
   .person span { font-size: 11.5px; }
   .person figcaption { padding: 10px 12px 12px; }
